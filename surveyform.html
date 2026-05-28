@@ -1,0 +1,156 @@
+ <!DOCTYPE html>
+
+<html lang="en">
+
+
+<head>
+  
+  <meta charset="utf-8">
+
+  <title>Survey Form</title>
+ 
+</head>
+
+<body>
+  
+
+  <h1>Survey Form</h1>
+  
+
+  <p>Let us know how we can improve freeCodeCamp</p>
+  
+
+  <form>
+   
+
+    <p>
+      <label for="name">* Name:</label>
+      
+      <input id="name" name="name" type="text" placeholder="Enter your name" required>
+      
+    </p>
+
+    <p>
+      <label for="email">* Email:</label>
+      
+      <input id="email" name="email" type="email" placeholder="Enter your Email" required>
+      
+    </p>
+
+    <p>
+      <label for="age">* Age:</label>
+      
+      <input id="age" name="age" type="number" placeholder="Age" min="1">
+     
+    </p>
+
+    <p>
+      
+      <select id="role" name="role">
+      
+        <option>Student</option>
+        <option>Full Time Job</option>
+        <option>Full Time Learner</option>
+        <option>Prefer not to say</option>
+        <option>Other</option>
+      </select>
+    </p>
+
+    <fieldset>
+     
+      <legend>How likely is it that you would recommend freeCodeCamp to a friend?</legend>
+     
+      <label>
+        <input type="radio" name="recommend" value="definitely">
+       
+      </label><br>
+      <label>
+        <input type="radio" name="recommend" value="maybe">
+      
+      </label><br>
+      <label>
+        <input type="radio" name="recommend" value="not-sure">
+     
+      </label>
+    </fieldset>
+
+    <p>
+      <label for="favorite">What do you like most in FCC:</label>
+     
+      <select id="favorite" name="favorite">
+        <option selected>Select an option</option>
+        <option>Challenges</option>
+        <option>Projects</option>
+        <option>Community</option>
+        <option>Open Source</option>
+      </select>
+    </p>
+
+    <fieldset>
+     
+      <legend>Things that should be improved in the future (Check all that apply):</legend>
+      <label>
+        <input type="checkbox" name="improve" value="frontend">
+        Front-end Projects
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="backend">
+        Back-end Projects
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="data-viz">
+        Data Visualization
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="challenges">
+        Challenges
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="open-source">
+        Open Source Community
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="gitter">
+        Gitter help rooms
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="videos">
+        Videos
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="city-meetups">
+        City Meetups
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="wiki">
+        Wiki
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="forum">
+        Forum
+      </label><br>
+      <label>
+        <input type="checkbox" name="improve" value="courses">
+        Additional Courses
+      </label>
+    </fieldset>
+
+    <p>
+      <label for="comments">Any comments or suggestions?</label><br>
+     
+      <textarea id="comments" name="comments" rows="5" cols="40" placeholder="Enter your comment here..."></textarea>
+    
+    </p>
+
+    <p>
+      <button type="submit">Submit</button>
+      
+    </p>
+
+  </form>
+ 
+</body>
+
+
+</html>
+
